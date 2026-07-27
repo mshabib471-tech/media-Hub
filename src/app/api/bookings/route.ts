@@ -1,2 +1,0 @@
-import { NextResponse } from 'next/server';
-export async function POST(request: Request){try{const body=await request.json(); if(!body.name || !body.phone) return NextResponse.json({error:'Name and phone are required'},{status:400}); return NextResponse.json({ok:true,message:'Booking received',data:body},{status:201});}catch{return NextResponse.json({error:'Invalid booking payload'},{status:400})}}
