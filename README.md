@@ -1,29 +1,24 @@
-# Habib Mobile Solution — Static HTML Website
+# Habib Mobile Solution — Premium Static HTML UI
 
-A complete premium static HTML/CSS/JavaScript website for **Habib Mobile Solution**. The project no longer requires Next.js, React, TypeScript, Firebase packages, or a Node build step. It can be uploaded directly to GitHub Pages, Netlify, Vercel static hosting, cPanel, or any normal web server.
+A production-ready static **HTML5 + Tailwind CDN + custom CSS + vanilla JavaScript** redesign for the Habib Mobile Solution mobile sidebar and footer. The interface keeps the existing navigation and contact functionality while upgrading the visual style to a 2026 premium dark navy glassmorphism/neumorphism experience.
+
+## What Changed
+
+- Redesigned the mobile sidebar with a profile card, circular image, glowing online badge, verified badge, language switcher, close button, active menu state, rounded menu cards, left icons, animated right arrows, hover states and click ripples.
+- Preserved the requested menu groups and links:
+  - Business Services: Video Downloader, Service Booking, Price List, Download Center
+  - Information: FAQ, Lost & Found, Photo Gallery, Video Gallery, Privacy Policy, Terms & Conditions, Admin Portal
+- Added a premium contact card with location, phone, email and a green gradient WhatsApp button with shine animation.
+- Redesigned the footer with copyright, “Crafted with ❤️ by Habibur Rahman”, and social icons for Facebook, YouTube, TikTok, Instagram and GitHub.
+- Added a floating glassmorphism AI Assistant button with pulse/glow animation that opens an AI chat panel.
+- Added micro animations: fade in, slide up, smooth hover, icon rotation, ripple effects and page transition.
 
 ## Files
 
-- `index.html` — complete website markup with SEO, Open Graph, structured data, and all sections.
-- `assets/styles.css` — responsive premium blue/white UI, glassmorphism, cards, mobile layout, animations.
-- `assets/app.js` — service rendering, live price calculator, booking form local persistence, scroll progress, menu, PWA registration.
-- `manifest.webmanifest` and `sw.js` — PWA-ready install/offline support.
-- `robots.txt` and `sitemap.xml` — SEO crawl files.
-
-## Sections Included
-
-- Sticky header with logo, language button, dashboard, call/WhatsApp, hamburger menu
-- Hero with CTA buttons, animated visual panel, statistics
-- About, skills, timeline
-- 14 mobile service categories with icon, title, description, price, delivery time, booking link
-- Live price calculator
-- Service booking form with image upload UI
-- Social cards for Facebook, Messenger, WhatsApp, Telegram, YouTube, GitHub, Email, Phone, Google Maps
-- Latest tech blog cards
-- Customer review cards with 5-star ratings
-- FAQ and contact
-- Professional footer
-- Floating AI assistant, WhatsApp, back-to-top, loading animation, scroll progress
+- `index.html` — semantic page markup, SEO metadata, Tailwind CDN, Lucide icons, sidebar, footer and AI chat.
+- `assets/styles.css` — premium navy UI, glassmorphism, neumorphism, responsive layout and animations.
+- `assets/app.js` — reusable menu rendering, sidebar controls, ripple effect, AI chat toggle and service worker registration.
+- `manifest.webmanifest`, `sw.js`, `robots.txt`, `sitemap.xml` — PWA and SEO support.
 
 ## Run Locally
 
@@ -31,9 +26,7 @@ A complete premium static HTML/CSS/JavaScript website for **Habib Mobile Solutio
 npm run start
 ```
 
-Then open `http://localhost:3000`.
-
-You can also open `index.html` directly in a browser.
+Open `http://localhost:3000`.
 
 ## Check Files
 
