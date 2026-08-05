@@ -1,4 +1,4 @@
-import { Smartphone, Apple, ShieldCheck, UnlockKeyhole, BadgeCheck, MonitorSmartphone, BatteryCharging, Headphones, PenTool, Share2, Landmark, ImageIcon, Scissors, Palette, Facebook, MessageCircle, Youtube, Github, Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Smartphone, Apple, ShieldCheck, UnlockKeyhole, BadgeCheck, MonitorSmartphone, BatteryCharging, Headphones, PenTool, Share2, Landmark, ImageIcon, Scissors, Palette, MessageCircle, Mail, Phone, MapPin, Send, Video, Code2, Users } from 'lucide-react';
 export const phone = '01868461577';
 export const email = 'Tec_habiburRahman@gmail.com';
 export const services = [
@@ -16,6 +16,6 @@ export const services = [
 {icon:ImageIcon,title:'Photo Print',bn:'ছবি প্রিন্ট',desc:'Studio-quality photo print and instant document photo service.',price:'৳100+',time:'10-30 min'},
 {icon:Scissors,title:'Sticker Cutting',bn:'স্টিকার কাটিং',desc:'Precision vinyl cutting for phones, shop branding and labels.',price:'৳200+',time:'30-90 min'},
 {icon:Palette,title:'Custom Skin',bn:'কাস্টম স্কিন',desc:'Premium custom phone skins with clean edge finish.',price:'৳250+',time:'30-60 min'}];
-export const socials = [{icon:Facebook,name:'Facebook',v:'Habibur Rahman'},{icon:MessageCircle,name:'Messenger',v:'habib.rahman.50918'},{icon:MessageCircle,name:'WhatsApp',v:phone},{icon:Send,name:'Telegram',v:'@habibmobilesolution'},{icon:Youtube,name:'YouTube',v:'Tec-Habibur Rahman'},{icon:Github,name:'GitHub',v:'mhabib-471'},{icon:Mail,name:'Email',v:email},{icon:Phone,name:'Phone',v:phone},{icon:MapPin,name:'Google Maps',v:'Chetogram, Bangladesh'}];
+export const socials = [{icon:Users,name:'Facebook',v:'Habibur Rahman'},{icon:MessageCircle,name:'Messenger',v:'habib.rahman.50918'},{icon:MessageCircle,name:'WhatsApp',v:phone},{icon:Send,name:'Telegram',v:'@habibmobilesolution'},{icon:Video,name:'YouTube',v:'Tec-Habibur Rahman'},{icon:Code2,name:'GitHub',v:'mhabib-471'},{icon:Mail,name:'Email',v:email},{icon:Phone,name:'Phone',v:phone},{icon:MapPin,name:'Google Maps',v:'Chetogram, Bangladesh'}];
 export const posts = ['Android phone auto restart fix','FRP unlock safe checklist','Protect your display in monsoon'];
 export const reviews = ['iPhone 13 Face ID and display solved perfectly.','Samsung S22 Ultra software repair was fast and clean.','Best accessories and honest pricing in Chattogram.'];
